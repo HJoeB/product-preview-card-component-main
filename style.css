@@ -47,7 +47,7 @@ body {
 }
 
 .img img {
-  height: 45vh;
+  height: 54vh;
   border-top-left-radius: 1em;
   border-bottom-left-radius: 1em;
 }
@@ -78,7 +78,6 @@ body {
   text-align: center;
   font-size: 40px;
   color: var(--dark-cyan);
-  text-decoration: ;
 }
 
 .texts .price .numbers .strike {
@@ -94,4 +93,43 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.cart {
+  display: flex;
+  width: 18em;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1.5em;
+  margin-top: 1em;
+  background-color: var(--dark-cyan);
+  color: #fff;
+  font-weight: bolder;
+  border: none;
+  border-radius: 1em;
+
+}
+
+.cart img {
+  margin-right: 1em;
+}
+
+.cart:hover {
+  background: blue;
+}
+
+@media(max-width:480px) {
+  .container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+  }
+  .img img {
+    border-radius: 0;
+    align-self: center;
+  }
 }
