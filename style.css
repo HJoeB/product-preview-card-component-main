@@ -45,6 +45,9 @@ body {
   width: 70vh;
   
 }
+.img {
+  height: fit-content;
+}
 
 .img img {
   height: 54vh;
@@ -69,7 +72,7 @@ body {
 }
 
 .texts p {
-  margin-bottom: 2vh;
+  margin-bottom: 0.1vh;
 }
 
 .texts .price .numbers {
@@ -117,6 +120,20 @@ body {
 
 .cart:hover {
   background: blue;
+}
+
+footer {
+  width: 100%;
+
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1em;
+  text-align: center;
+  align-items: center;
+}
+
+footer .attribution p {
+  text-align: center;
 }
 
 @media(max-width:480px) {
